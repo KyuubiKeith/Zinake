@@ -412,6 +412,7 @@
     <Content Include="Fonts\linotte_semi_bold-webfontd41d.eot" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Landing.cshtml" />
+    <None Include="Properties\PublishProfiles\ZinakeWebApp - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

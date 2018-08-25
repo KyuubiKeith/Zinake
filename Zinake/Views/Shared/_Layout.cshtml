@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@ViewBag.Title Zinake.</title>
+    @RenderSection("Title")
 
 
     <meta property="og:type" content="WebApp" />
@@ -100,7 +100,7 @@
                 </div>
             </div>
 
-            @RenderBody()
+            @RenderSection("Element")
             <!--second slide-->
             <div class="slides hiring-section">
                 <div class="absolute-full-container video-container hidden-sm hidden-xs">
@@ -555,22 +555,21 @@
     </div>
 
 
-    @Scripts.Render("~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/typeit/4.2.3/typeit.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/typing-slide-loop2.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jquery.ScrollMagic.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jMouseWheel-1.0.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jquery.typist.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/hammer.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/typed.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/ScrollMagic.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jquery-2.1.4.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/velocity.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/velocity.ui.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/vertical-slider.js")
-    @Scripts.Render("~/Scripts/JavaScript/lightslider.js")
-    @Scripts.Render("~/Scripts/JavaScript/main.js")
-    @RenderSection("scripts", required: true)
+    <script src="~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/jquery-2.1.4.js"></script>
+    <script src="~/Scripts/JavaScript/res/ScrollMagic.js"></script>
+    <script src="~/Scripts/JavaScript/res/jquery.ScrollMagic.js"></script>
+    <script src="~/Scripts/JavaScript/res/typed.min.js"></script>
+    <script src="~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/typeit/4.2.3/typeit.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/typing-slide-loop2.js"></script>
+    <script src="~/Scripts/JavaScript/res/jquery.typist.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/hammer.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/jMouseWheel-1.0.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/velocity.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/velocity.ui.min.js"></script>
+    <script src="~/Scripts/JavaScript/vertical-slider.js"></script>
+    <script src="~/Scripts/JavaScript/lightslider.js"></script>
+    <script src="~/Scripts/JavaScript/main.js"></script>
 
 
     <script>
