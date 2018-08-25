@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -284,8 +284,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../../The_Elements/Fonts/glyphicons-halflings-regular.eot');
-  src: url('../../The_Elements/Fonts/glyphicons-halflings-regulard41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../../Fonts/glyphicons-halflings-regular.eot');
+  src: url('../../Fonts/glyphicons-halflings-regulard41d.eot?#iefix') format('embedded-opentype'), url('../../Fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../Fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../Fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../Fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -10306,8 +10306,8 @@ a {
 }
 @font-face {
   font-family: 'fontello';
-  src: url('../../The_Elements/Fonts/fontelloa950.eot?16678252');
-  src: url('../../The_Elements/Fonts/fontelloa950.eot?16678252#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/fontelloa950.woff2?16678252') format('woff2'), url('../../The_Elements/Fonts/fontelloa950.woff?16678252') format('woff'), url('../../The_Elements/Fonts/fontelloa950.ttf?16678252') format('truetype'), url('../../The_Elements/Fonts/fontelloa950.svg?16678252#fontello') format('svg');
+  src: url('../../Fonts/fontelloa950.eot?16678252');
+  src: url('../../Fonts/fontelloa950.eot?16678252#iefix') format('embedded-opentype'), url('../../Fonts/fontelloa950.woff2?16678252') format('woff2'), url('../../Fonts/fontelloa950.woff?16678252') format('woff'), url('../../Fonts/fontelloa950.ttf?16678252') format('truetype'), url('../../Fonts/fontelloa950.svg?16678252#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -10600,11 +10600,11 @@ a {
 }
 .nav-light .logo-container .static-logo,
 .nav-dark .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/odnoklassniki.svg');
+  background: url('../../Images/SVGs/odnoklassniki.svg');
 }
 .nav-light .logo-container .static-logo.black,
 .nav-dark .logo-container .static-logo.black {
-  background: url('../../The_Elements/Images/SVGs/odnoklassniki-logo.svg');
+  background: url('../../Images/SVGs/odnoklassniki-logo.svg');
 }
 @media screen and (max-width: 768px) {
   .nav-light,
@@ -10658,11 +10658,11 @@ a {
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/TheLogoLight.svg');
+  background: url('../../Images/SVGs/TheLogoLight.svg');
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .static-logo.black {
-  background: url('../../The_Elements/Images/SVGs/TheLogoDark.svg');
+  background: url('../../Images/SVGs/TheLogoDark.svg');
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
@@ -10688,7 +10688,7 @@ a {
   }
 }
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/TheLogoDark.svg');
+  background: url('../../Images/SVGs/TheLogoDark.svg');
 }
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo,
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
@@ -10698,12 +10698,12 @@ a {
   background-size: 150px 70px;
 }
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-gif {
-  background: url('../../The_Elements/Images/Gif/Unfold.gif');
+  background: url('../../Images/Gif/Unfold.gif');
 }
 .vs-active-section-0 .logo-gif,
 .vs-active-section-2 .logo-gif,
 .vs-active-section-3 .logo-gif {
-  background: url('../../The_Elements/Images/Gif/Unfold.gif');
+  background: url('../../Images/Gif/Unfold.gif');
 }
 .vs-active-section-0 .navbar-default.navbar-fixed-top .social-show-container .social-open,
 .vs-active-section-2 .navbar-default.navbar-fixed-top .social-show-container .social-open,
@@ -12718,29 +12718,29 @@ body {
 }
 @font-face {
   font-family: 'pantonlight';
-  src: url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.eot');
-  src: url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.woff') format('woff'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.ttf') format('truetype'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.svg#pantonlight') format('svg');
+  src: url('../../Fonts/fontfabric_-_panton_light-webfont.eot');
+  src: url('../../Fonts/fontfabric_-_panton_light-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../Fonts/fontfabric_-_panton_light-webfont.woff2') format('woff2'), url('../../Fonts/fontfabric_-_panton_light-webfont.woff') format('woff'), url('../../Fonts/fontfabric_-_panton_light-webfont.ttf') format('truetype'), url('../../Fonts/fontfabric_-_panton_light-webfont.svg#pantonlight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'linotte-regularuploaded_file';
-  src: url('../../The_Elements/Fonts/linotte_regular-webfont.eot');
-  src: url('../../The_Elements/Fonts/linotte_regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/linotte_regular-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/linotte_regular-webfont.woff') format('woff'), url('../../The_Elements/Fonts/linotte_regular-webfont.ttf') format('truetype'), url('../../The_Elements/Fonts/linotte_regular-webfont.svg#linotte-regularuploaded_file') format('svg');
+  src: url('../../Fonts/linotte_regular-webfont.eot');
+  src: url('../../Fonts/linotte_regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../Fonts/linotte_regular-webfont.woff2') format('woff2'), url('../../Fonts/linotte_regular-webfont.woff') format('woff'), url('../../Fonts/linotte_regular-webfont.ttf') format('truetype'), url('../../Fonts/linotte_regular-webfont.svg#linotte-regularuploaded_file') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'linotte-semibolduploaded_file';
-  src: url('../../The_Elements/Fonts/linotte_semi_bold-webfont.eot');
-  src: url('../../The_Elements/Fonts/linotte_semi_bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/linotte_semi_bold-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/linotte_semi_bold-webfont.woff') format('woff'), url('../../The_Elements/Fonts/linotte_semi_bold-webfont.ttf') format('truetype'), url('../../The_Elements/Ffonts/linotte_semi_bold-webfont.svg#linotte-semibolduploaded_file') format('svg');
+  src: url('../../Fonts/linotte_semi_bold-webfont.eot');
+  src: url('../../Fonts/linotte_semi_bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../Fonts/linotte_semi_bold-webfont.woff2') format('woff2'), url('../../Fonts/linotte_semi_bold-webfont.woff') format('woff'), url('../../Fonts/linotte_semi_bold-webfont.ttf') format('truetype'), url('../../Ffonts/linotte_semi_bold-webfont.svg#linotte-semibolduploaded_file') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'linotte-bolduploaded_file';
-  src: url('../../The_Elements/Fonts/linotte_bold-webfont.eot');
-  src: url('../../The_Elements/Fonts/linotte_bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/linotte_bold-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/linotte_bold-webfont.woff') format('woff'), url('../../The_Elements/Fonts/linotte_bold-webfont.ttf') format('truetype'), url('../../The_Elements/Fonts/linotte_bold-webfont.svg#linotte-bolduploaded_file') format('svg');
+  src: url('../../Fonts/linotte_bold-webfont.eot');
+  src: url('../../Fonts/linotte_bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../Fonts/linotte_bold-webfont.woff2') format('woff2'), url('../../Fonts/linotte_bold-webfont.woff') format('woff'), url('../../Fonts/linotte_bold-webfont.ttf') format('truetype'), url('../../Fonts/linotte_bold-webfont.svg#linotte-bolduploaded_file') format('svg');
   font-weight: normal;
   font-style: normal;
 }
