@@ -411,6 +411,7 @@
     <Content Include="Fonts\linotte_semi_bold-webfont.woff2" />
     <Content Include="Fonts\linotte_semi_bold-webfontd41d.eot" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\Landing.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -13,6 +13,11 @@ namespace Zinake.Controllers
             return View();
         }
 
+        public ActionResult Landing()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

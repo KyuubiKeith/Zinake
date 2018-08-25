@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@ViewBag.Title Zinake.</title>
+    <title>Zinake | Landing</title>
 
 
     <meta property="og:type" content="WebApp" />
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- CSS Inject -->
-    @Styles.Render("~/Scripts/CSS/ZinakeWorx.css")
+    <link href="~/Scripts/CSS/ZinakeWorx.css" rel="stylesheet" media="screen">
 
     <!--- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -100,7 +100,31 @@
                 </div>
             </div>
 
-            @RenderBody()
+            <!--second slide-->
+            <div class="slides video-slide" id="content">
+                <div class="absolute-full-container hidden-xs hidden-sm">
+                    <div class="iphone-video-container visible-lg" id="scene2">
+                        <video class="composizione" loop muted>
+                            <source src="~Content/Videos/finale-white.mp4" type='video/mp4'>
+                        </video>
+                    </div>
+                    <div class="static-video-container visible-md" id="scene5" style="background-image:url('~Content/Images/AOB/filler.jpg')"></div>
+                </div>
+                <div class="col-left padding-bottom-mobile toshow" id="scene1">
+                    <h2 class="green">Client Registration</h2>
+                    <p class="text-primary">The Lorem Ipsum for registration of Clients. May there be many more before we update these lines.</p>
+                    <div class="outer-button-container">
+                        <div class="normal-button-container">
+                            <a data-target="#follow" href="#" onClick="event.preventDefault(); return false;" class="btn btn-default normal-links hover-state popup-open">Register As A Client<div class="icon-container"><i class="icon icon-arrow-right"></i></div></a>
+                            <a data-target="#follow" href="#" onClick="event.preventDefault(); return false;" class="btn btn-default normal-links normal popup-open">Registration<div class="icon-container"><i class="icon icon-arrow-right"></i></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gif-container toshow visible-sm visible-xs">
+                    <img class="img-responsive" src="~Content/Images/Gif/gif-finale.gif">
+                </div>
+            </div>
+
             <!--second slide-->
             <div class="slides hiring-section">
                 <div class="absolute-full-container video-container hidden-sm hidden-xs">
@@ -206,7 +230,6 @@
                 <div class="static-sview-image toshow visible-xs visible-sm" style="background-image:url('~Content/Images/img-streetview-cut.jpg')">
                     <img class="img-responsive" src="">
                 </div>
-
                 <!-- Footer -->
                 <footer class="footer-bottom">
                     <div class="footer-inner-alternative">
@@ -221,7 +244,7 @@
                             <!-- Right -->
                             <div class="col-sm-4 col-md-5 col-lg-4 right-footer">
                                 <div class="right-footer-container">
-                                    <span class="copyright">&copy; @DateTime.Now.Year MwalimuOnline</span>
+                                    <span class="copyright">© 2018 MwalimuOnline</span>
                                     <span class="separator"></span>
                                     <ul class="social-list">
                                         <li><a class="no-dev" href="https://www.facebook.com/miyabiafrica/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
@@ -237,7 +260,6 @@
                     </div>
                 </footer>
                 <!-- Footer -->
-
             </div>
         </div>
 
@@ -555,22 +577,21 @@
     </div>
 
 
-    @Scripts.Render("~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/typeit/4.2.3/typeit.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/typing-slide-loop2.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jquery.ScrollMagic.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jMouseWheel-1.0.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jquery.typist.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/hammer.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/typed.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/ScrollMagic.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/jquery-2.1.4.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/velocity.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/res/velocity.ui.min.js")
-    @Scripts.Render("~/Scripts/JavaScript/vertical-slider.js")
-    @Scripts.Render("~/Scripts/JavaScript/lightslider.js")
-    @Scripts.Render("~/Scripts/JavaScript/main.js")
-    @RenderSection("scripts", required: true)
+    <script src="~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/jquery-2.1.4.js"></script>
+    <script src="~/Scripts/JavaScript/res/ScrollMagic.js"></script>
+    <script src="~/Scripts/JavaScript/res/jquery.ScrollMagic.js"></script>
+    <script src="~/Scripts/JavaScript/res/typed.min.js"></script>
+    <script src="~/Scripts/JavaScript/cdnjs.cloudflare.com/ajax/libs/typeit/4.2.3/typeit.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/typing-slide-loop2.js"></script>
+    <script src="~/Scripts/JavaScript/res/jquery.typist.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/hammer.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/jMouseWheel-1.0.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/velocity.min.js"></script>
+    <script src="~/Scripts/JavaScript/res/velocity.ui.min.js"></script>
+    <script src="~/Scripts/JavaScript/vertical-slider.js"></script>
+    <script src="~/Scripts/JavaScript/lightslider.js"></script>
+    <script src="~/Scripts/JavaScript/main.js"></script>
 
 
     <script>
